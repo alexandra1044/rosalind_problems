@@ -8,7 +8,7 @@ d = dict()
 for line in data:
     line = line.strip()
 
-    words = line.split(" ")  
+    words = line.split(" ")
     for word in words:
         if word in d:
             d[word] = d[word] + 1
